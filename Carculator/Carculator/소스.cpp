@@ -29,7 +29,8 @@ int main()
 			ch = '/';
 			ans = (first + 1) / (second + 1);
 			break;
-		
+		default:
+			break;
 		}
 		printf("%d %c %d = ", (first + 1), ch, (second + 1));
 		scanf("%d", &input);
